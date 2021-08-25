@@ -13,6 +13,12 @@ h1 {
   color: #9391ff;
 }
 
+button {
+  background-color: #9390ff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+}
 /*hero-section*/
 
 .Hero-section {
@@ -23,4 +29,28 @@ h1 {
 
 .hero-width {
   max-width: 447px;
+}
+
+/* works section */
+.works-section .row {
+  height: 348px;
+}
+
+.card-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: #191765;
+  border: none;
+}
+
+.card-image {
+  height: 400px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
 }
