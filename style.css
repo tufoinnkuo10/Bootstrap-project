@@ -5,10 +5,9 @@
 }
 
 body {
-  background-color:#191765;
+  background-color: #191765;
   color: #fff;
 }
-
 
 h1 {
   color: #9391ff;
@@ -17,8 +16,11 @@ h1 {
 /*hero-section*/
 
 .Hero-section {
-  max-width: 447px;
-  
+  background-image: url("./images/two-circles.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-
+.hero-width {
+  max-width: 447px;
+}
