@@ -3,10 +3,12 @@
 A Demo Bootstrap project (Mobile/Desktop version)
 
 > Figma clone project
-Designed a personal Mobile and Desktop responsive webpage about Ourself with a template from Figma using Bootstrap.
 
-![screenshot](./images/screenshot(11).png)
-![screenshot](./images/screenshot(12).png)
+
+Designed a personal Mobile and Desktop responsive webpage about Ourself with a template from Figma using Bootstrap.
+screenshots are shown below:
+![screenshot](./images/screen1.png)
+![screenshot](./images/screen2.png)
 
 
 This milestone consist of the various sections
