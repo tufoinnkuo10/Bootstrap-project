@@ -19,6 +19,12 @@ button {
   padding: 12px;
   border: none;
 }
+
+.center-text {
+  align-items: center;
+  text-align: center;
+}
+
 /*hero-section*/
 
 .Hero-section {
@@ -32,25 +38,46 @@ button {
 }
 
 /* works section */
-.works-section .row {
-  height: 348px;
-}
-
-.card-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .card {
   background-color: #191765;
   border: none;
+  margin-bottom: 50px;
 }
 
 .card-image {
-  height: 400px;
+  height: 320px;
+  width: 100%;
 }
+
+.badge {
+  border-right: 1px solid #555555;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* contact us */
 
 .contact-us {
   max-width: 684px;
+  margin-top: 50px;
+  height: 100vh;
 }
 
+.form-section button {
+  padding: 12px 40px;
+  margin: 80px 0;
+}
+
+/* footer section */
+.footer {
+  max-width: 421;
+  padding-top: 20px;
+  border-top: 1px solid #3a3837;
+}
+
+.inner-padding {
+  padding: 0 20px;
+}
