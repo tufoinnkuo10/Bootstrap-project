@@ -25,11 +25,11 @@ button {
   text-align: center;
 }
 
-/*hero-section*/
+/* hero-section */
 
 .Hero-section {
   background-image: url("./images/two-circles.png");
-  background-size: conta;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -37,6 +37,7 @@ button {
   background-image: url("./images/Group\ 65@2x.png");
   background-size: contain;
 }
+
 .hero-width {
   max-width: 447px;
 }
@@ -54,7 +55,7 @@ button {
 }
 
 .badge {
-  border-right: 1px solid #555555;
+  border-right: 1px solid #555;
 }
 
 .card-image img {
@@ -78,11 +79,10 @@ button {
   margin: 80px 0;
 }
 
-
-
 /* footer section */
+
 .footer {
-  max-width: 421;
+  max-width: 421px;
   padding-top: 20px;
   border-top: 1px solid #3a3837;
   margin-top: 50px;
@@ -92,14 +92,12 @@ button {
   padding: 0 20px;
 }
 
-
 @media screen and (max-width: 700px) {
-
   .work1,
   .work2 {
     display: none;
   }
-  
+
   .center-items {
     align-items: center;
     text-align: center;
@@ -108,11 +106,9 @@ button {
   .ul-icons {
     max-width: 200px;
     margin: 0 auto;
-
   }
 
   .chat::after {
     content: "Contact Us";
   }
-   
 }
