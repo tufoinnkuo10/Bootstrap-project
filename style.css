@@ -29,10 +29,14 @@ button {
 
 .Hero-section {
   background-image: url("./images/two-circles.png");
-  background-size: contain;
+  background-size: conta;
   background-repeat: no-repeat;
 }
 
+.works-section {
+  background-image: url("./images/Group\ 65@2x.png");
+  background-size: contain;
+}
 .hero-width {
   max-width: 447px;
 }
@@ -63,7 +67,10 @@ button {
 .contact-us {
   max-width: 684px;
   margin-top: 50px;
-  height: 100vh;
+}
+
+.chat::after {
+  content: "Let's Chat";
 }
 
 .form-section button {
@@ -71,13 +78,41 @@ button {
   margin: 80px 0;
 }
 
+
+
 /* footer section */
 .footer {
   max-width: 421;
   padding-top: 20px;
   border-top: 1px solid #3a3837;
+  margin-top: 50px;
 }
 
 .inner-padding {
   padding: 0 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .work1,
+  .work2 {
+    display: none;
+  }
+  
+  .center-items {
+    align-items: center;
+    text-align: center;
+  }
+
+  .ul-icons {
+    max-width: 200px;
+    margin: 0 auto;
+
+  }
+
+  .chat::after {
+    content: "Contact Us";
+  }
+   
 }

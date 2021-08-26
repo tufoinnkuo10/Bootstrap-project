@@ -32,10 +32,10 @@
         <li class="nav-item">
           <a class="nav-link px-4" href="#">Portfolio</a>
         </li>
-        <li class="nav-item px-4"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item px-4"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item px-4"><a class="nav-link" href="#works-section">About</a></li>
+        <li class="nav-item px-4"><a class="nav-link" href="#contact">Contact</a></li>
         <li class="nav-item px-4">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#contact-us">
             <img src="./images/envelope.png" alt="envelope icon" />
           </a>
         </li>
@@ -109,10 +109,10 @@
           </div>
           <hr />
         </div>
-        <div class="mt-5 d-flex justify-content-between">
-          <div><img src="./icons/work.png" alt="" /></div>
-          <div>
-            <ul class="list-unstyled d-flex">
+        <div class="mt-5 d-flex center-items justify-content-between flex-wrap">
+          <div class="work1"><img src="./icons/work.png" alt="" /></div>
+          <div class="ul-icons">
+            <ul class=" list-unstyled d-flex">
               <li class="list p-2">
                 <a href="#"
                   ><img src="./icons/github.png" alt="github icon"
@@ -138,13 +138,14 @@
               </li>
             </ul>
           </div>
-          <div><img src="./icons/work.png" alt="" /></div>
+          <div class="work2"><img src="./icons/work.png" alt="" /></div>
         </div>
       </section>
 
       <!-- works section -->
-      <section class="works-section">
+      <section class="works-section" id="works-section">
         <h1 class="display-3 fw-bold mt-3 mb-5">My recent work</h1>
+        <hr>
 
         <div class="card">
           <div class="row">
@@ -289,10 +290,10 @@
       </section>
 
       <!-- contact section -->
-      <section class="contact-us mx-auto text-center">
-        <div class="form-section row">
+      <section class="contact-us mx-auto text-center" id="contact-us">
+        <div class="form-section row" id="contact">
           <div class="mb-4">
-            <h1>Let's chat</h1>
+            <h1 class="chat"></h1>
           </div>
           <p class="mb-5">
             If you have an application you are interested in developing, a
@@ -335,8 +336,8 @@
               rows="3"
             ></textarea>
           </div>
-          <div class="button d-flex justify-content-center">
-            <button type="button">Send</button>
+          <div class="button mt-2 d-flex justify-content-center">
+            <button class="btn-lg" type="button">Send</button>
           </div>
         </div>
       </section>
